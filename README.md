@@ -1,16 +1,14 @@
-## Hi there 👋
+## 👋 About Me
 
+I'm Nishant, a software developer from India who enjoys building clean, practical software.
 
-**mnishantlabs/mnishantlabs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Currently exploring:
+- 🐍 Python & FastAPI
+- ⚛️ React + TypeScript
+- 📱 Android (Kotlin)
+- 🤖 AI-powered applications
+- 🎵 Local-first desktop software
 
-Here are some ideas to get you started:
+I enjoy turning ideas into products, improving UI/UX, and learning how things work under the hood.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
+Currently building projects one commit at a time.
