@@ -36,7 +36,7 @@ Building useful software, one project at a time.
 
 </div>
 
----
+
 
 # ❤️ About Me
 
@@ -53,7 +53,7 @@ I like creating applications that solve real problems instead of adding another 
 - ⚛️ Modern frontend with React & TypeScript
 - 📚 Learning System Design
 
----
+
 
 # 🛠 Tech Stack
 
@@ -63,7 +63,7 @@ I like creating applications that solve real problems instead of adding another 
 
 </p>
 
----
+
 
 # 🚀 Featured Projects
 
@@ -75,7 +75,7 @@ I like creating applications that solve real problems instead of adding another 
 | 🤖 **AI Projects** | Experiments with AI and automation |
 
 
----
+
 
 # 🌍 Connect With Me
 
@@ -99,7 +99,7 @@ I like creating applications that solve real problems instead of adding another 
 
 </p>
 
----
+
 
 <div align="center">
 
