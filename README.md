@@ -1,14 +1,166 @@
-## 👋 About Me
+<div align="center">
 
-I'm Nishant, a software developer from India who enjoys building clean, practical software.
+# Hi, I'm Nishant 👋
 
-Currently exploring:
-- 🐍 Python & FastAPI
-- ⚛️ React + TypeScript
-- 📱 Android (Kotlin)
-- 🤖 AI-powered applications
-- 🎵 Local-first desktop software
+### Software Developer • Python • FastAPI • React • Android
 
-I enjoy turning ideas into products, improving UI/UX, and learning how things work under the hood.
+Building useful software, one project at a time.
 
-Currently building projects one commit at a time.
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Software+Developer;Python+%7C+FastAPI+Developer;React+%7C+TypeScript;Android+Developer;Open+Source+Enthusiast;Building+Useful+Software" />
+</p>
+
+<p>
+  <a href="https://github.com/YOUR_USERNAME">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
+  </a>
+
+  <a href="https://linkedin.com/in/YOUR_USERNAME">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://discord.gg/YOUR_INVITE">
+    <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" />
+  </a>
+
+  <a href="mailto:your@email.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=white" />
+  </a>
+
+  <a href="https://x.com/YOUR_USERNAME">
+    <img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" />
+  </a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=3B82F6&style=for-the-badge"/>
+
+</div>
+
+---
+
+# ❤️ About Me
+
+I'm a software developer from India who enjoys building practical software with clean architecture and modern technologies.
+
+I like creating applications that solve real problems instead of adding another abandoned repository to GitHub. The internet already has plenty of those.
+
+### Currently
+
+- 🚀 Building open-source projects
+- 🤖 Exploring AI applications
+- 📱 Android development with Kotlin
+- 🐍 Backend development using FastAPI
+- ⚛️ Modern frontend with React & TypeScript
+- 📚 Learning System Design
+
+---
+
+# 🛠 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,js,kotlin,sqlite,git,github,docker,linux,androidstudio,vscode,html,css,tailwind&perline=8"/>
+
+</p>
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description |
+|---------|-------------|
+| 🎵 **NorthTracks** | Local-first music player and library manager |
+| 🔐 **NorthPass** | Secure password manager |
+| ⚡ **NorthStudio** | Collection of developer tools |
+| 🤖 **AI Projects** | Experiments with AI and automation |
+
+---
+
+# 📊 GitHub Statistics
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark&hide_border=true"/>
+
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-compact"/>
+
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia&no-frame=true&margin-w=15&margin-h=15"/>
+
+</p>
+
+---
+
+# 📌 Current Focus
+
+```text
+✔ AI Applications
+✔ FastAPI
+✔ React
+✔ Android Development
+✔ System Design
+✔ Open Source
+```
+
+---
+
+# 🌍 Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://skillicons.dev/icons?i=github"/>
+</a>
+
+<a href="https://linkedin.com/in/YOUR_USERNAME">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+<a href="mailto:your@email.com">
+<img src="https://skillicons.dev/icons?i=gmail"/>
+</a>
+
+<a href="https://discord.gg/YOUR_INVITE">
+<img src="https://skillicons.dev/icons?i=discord"/>
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### 💭 Developer Quote
+
+> **"Learning by building. Improving by shipping."**
+
+⭐ Thanks for visiting my profile!
+
+</div>
