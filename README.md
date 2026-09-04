@@ -2,37 +2,20 @@
 
 # Hi, I'm Nishant 👋
 
-### Software Developer • Python • FastAPI • React • Android
+### Software Developer • Python • JavaScript • Desktop & Browser Tools
 
 Building useful software, one project at a time.
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Software+Developer;Python+%7C+FastAPI+Developer;React+%7C+TypeScript;Android+Developer;Open+Source+Enthusiast;Building+Useful+Software" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Software+Developer;Python+Developer;JavaScript+%26+Browser+Extensions;Desktop+Application+Developer;Open+Source+Enthusiast;Building+Useful+Software" />
 </p>
 
 <p>
-  <a href="https://github.com/YOUR_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
+  <a href="https://github.com/mnishantlabs">
+    <img src="https://img.shields.io/badge/GitHub-mnishantlabs-181717?logo=github&logoColor=white" />
   </a>
-
-  <a href="https://linkedin.com/in/YOUR_USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
-  </a>
-
-  <a href="https://discord.gg/YOUR_INVITE">
-    <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" />
-  </a>
-
-  <a href="mailto:your@email.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=white" />
-  </a>
-
-  <a href="https://x.com/YOUR_USERNAME">
-    <img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=mnishantlabs&label=Profile%20Views&color=3B82F6&style=for-the-badge"/>
 </p>
-
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=3B82F6&style=for-the-badge"/>
 
 </div>
 
@@ -47,19 +30,15 @@ I like creating applications that solve real problems instead of adding another 
 ### Currently
 
 - 🚀 Building open-source projects
-- 🤖 Exploring AI applications
-- 📱 Android development with Kotlin
-- 🐍 Backend development using FastAPI
-- ⚛️ Modern frontend with React & TypeScript
-- 📚 Learning System Design
-
-
+- 🐍 Desktop applications with Python
+- 🌐 Cross-browser extensions (Chrome MV3 & Firefox)
+- ⚡ Tools that make everyday tasks faster
 
 # 🛠 Tech Stack
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,js,kotlin,sqlite,git,github,docker,linux,androidstudio,vscode,html,css,tailwind&perline=8"/>
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,sqlite,git,github,docker,linux,pyinstaller,fastapi&perline=8"/>
 
 </p>
 
@@ -67,13 +46,34 @@ I like creating applications that solve real problems instead of adding another 
 
 # 🚀 Featured Projects
 
-| Project | Description |
-|---------|-------------|
-| 🎵 **NorthTracks** | Local-first music player and library manager |
-| 🔐 **NorthPass** | Secure password manager |
-| ⚡ **NorthStudio** | Collection of developer tools |
-| 🤖 **AI Projects** | Experiments with AI and automation |
+### 🎬 StreamSaver — Fast Parallel Video & Audio Downloader
+A Windows desktop app (Python + Tkinter) + Chrome/Firefox extension. Downloads video & audio from YouTube, YouTube Music, PornHub, XHamster, and hundreds more sites **in parallel** (IDM-style, up to 64 connections) with playlist/channel support and format conversion.
 
+[![Website](https://img.shields.io/badge/Website-StreamSaver-blue)](https://mnishantlabs.github.io/StreamSaver/)
+[![Repo](https://img.shields.io/badge/Repo-GitHub-181717?logo=github)](https://github.com/mnishantlabs/StreamSaver)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
+
+---
+
+### 🎧 Discord Token Manager (Multiple VC Joiner) — Desktop App
+A Windows desktop tool (Python + CustomTkinter) for organizing, validating, and managing voice channels across multiple Discord accounts from one window. Everything stored locally.
+
+[![Website](https://img.shields.io/badge/Website-Docs-blue)](https://mnishantlabs.github.io/Discord-Multiple-VC-Joiner/)
+[![Repo](https://img.shields.io/badge/Repo-GitHub-181717?logo=github)](https://github.com/mnishantlabs/Discord-Multiple-VC-Joiner)
+[![Release](https://img.shields.io/badge/release-v1.0.1-5865f2)](https://github.com/mnishantlabs/Discord-Multiple-VC-Joiner/releases)
+
+---
+
+### 🔐 Discord Token Manager — Browser Extension
+A quiet, local-first Chrome (MV3) & Firefox (MV2) extension for managing saved Discord session tokens, with a Material 3 inspired UI. Everything stays in your browser's local storage.
+
+[![Website](https://img.shields.io/badge/Website-Docs-blue)](https://mnishantlabs.github.io/Discord-Token-Manager-Extenstion/)
+[![Repo](https://img.shields.io/badge/Repo-GitHub-181717?logo=github)](https://github.com/mnishantlabs/Discord-Token-Manager-Extenstion)
+[![Release](https://img.shields.io/badge/release-v1.4.1-5865f2)](https://github.com/mnishantlabs/Discord-Token-Manager-Extenstion/releases)
+
+---
+
+> _More projects on the way — check back soon!_
 
 
 
@@ -81,20 +81,8 @@ I like creating applications that solve real problems instead of adding another 
 
 <p align="center">
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/mnishantlabs">
 <img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-<a href="https://linkedin.com/in/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="mailto:your@email.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
-<a href="https://discord.gg/YOUR_INVITE">
-<img src="https://skillicons.dev/icons?i=discord"/>
 </a>
 
 </p>
