@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nishant Kr. Mishra — Software developer building practical desktop apps and browser tools. Creator of StreamSaver and the Discord Token Manager suite.">
+  <title>Nishant Kr. Mishra · Software Developer</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #0b1020;
+      --bg2: #111731;
+      --card: #161d3a;
+      --border: #262f52;
+      --text: #e6e9f5;
+      --muted: #9aa3c0;
+      --accent: #3B82F6;
+      --accent2: #8B5CF6;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(1200px 600px at 80% -10%, rgba(59,130,246,.18), transparent 60%),
+        radial-gradient(900px 500px at -10% 20%, rgba(139,92,246,.14), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+
+    /* Hero */
+    header.hero { padding: 90px 0 40px; text-align: center; }
+    .avatar {
+      width: 108px; height: 108px; border-radius: 50%; margin-bottom: 22px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 52px; font-weight: 800; color: #fff;
+      box-shadow: 0 12px 40px rgba(59,130,246,.35);
+    }
+    .hero h1 { font-size: clamp(30px, 5vw, 44px); letter-spacing: -.5px; }
+    .hero .role { color: var(--accent); font-weight: 600; margin: 10px 0 14px; font-size: 18px; }
+    .hero p.tagline { color: var(--muted); max-width: 620px; margin: 0 auto 26px; }
+    .hero-badges { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .badge {
+      border: 1px solid var(--border); background: var(--card); color: var(--text);
+      padding: 8px 16px; border-radius: 999px; font-size: 14px; transition: .2s;
+    }
+    .badge:hover { border-color: var(--accent); color: #fff; text-decoration: none; transform: translateY(-1px); }
+
+    /* Sections */
+    section { padding: 46px 0; }
+    h2.sec { font-size: 22px; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; }
+    h2.sec::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+    /* About */
+    .about p { color: #c9d0e8; max-width: 760px; margin-bottom: 16px; }
+    ul.about-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 12px; margin-top: 20px; }
+    ul.about-list li {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 14px 16px; font-size: 15px; color: #cdd4ee;
+    }
+
+    /* Skills */
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 8px 14px; font-size: 14px; color: #d4daf2;
+    }
+    .skill b { color: #fff; }
+
+    /* Projects */
+    .projects { display: grid; gap: 18px; }
+    .project {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 22px 24px; display: flex; flex-direction: column; gap: 12px; transition: .2s;
+    }
+    .project:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .project .title { display: flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 700; }
+    .project .title .emoji { font-size: 22px; }
+    .project .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .project .tags span {
+      font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted);
+    }
+    .project p { color: #c9d0e8; font-size: 15px; }
+    .project .links { display: flex; gap: 12px; margin-top: auto; }
+    .btn {
+      display: inline-block; padding: 10px 18px; border-radius: 10px; font-weight: 600; font-size: 14px;
+      transition: .2s; text-decoration: none; border: 1px solid transparent;
+    }
+    .btn.primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; }
+    .btn.primary:hover { filter: brightness(1.08); text-decoration: none; }
+    .btn.ghost { border-color: var(--border); color: var(--text); }
+    .btn.ghost:hover { border-color: var(--accent); text-decoration: none; }
+
+    /* Contact / footer */
+    footer { text-align: center; padding: 50px 0 60px; border-top: 1px solid var(--border); margin-top: 20px; }
+    footer .socials { display: flex; gap: 14px; justify-content: center; margin-bottom: 20px; }
+    footer .socials a { width: 46px; height: 46px; display: inline-flex; align-items: center; justify-content: center; border-radius: 12px; border: 1px solid var(--border); background: var(--card); }
+    footer .socials svg { width: 22px; height: 22px; fill: #c9d0e8; }
+    footer p { color: var(--muted); font-size: 14px; }
+
+    @media (max-width: 560px) {
+      header.hero { padding: 60px 0 30px; }
+      .project .links { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="avatar">N</div>
+    <h1>Nishant Kr. Mishra</h1>
+    <div class="role">Software Developer • Python • JavaScript</div>
+    <p class="tagline">
+      I build practical software that solves real problems — desktop applications and
+      cross-browser tools that make everyday tasks faster, with clean architecture and
+      everything stored locally by default.
+    </p>
+    <div class="hero-badges">
+      <a class="badge" href="https://github.com/mnishantlabs">GitHub</a>
+      <a class="badge" href="https://mnishantlabs.github.io/StreamSaver/">StreamSaver</a>
+      <a class="badge" href="https://mnishantlabs.github.io/Discord-Multiple-VC-Joiner/">Discord Token Manager (Desktop)</a>
+      <a class="badge" href="https://mnishantlabs.github.io/Discord-Token-Manager-Extenstion/">Discord Token Manager (Extension)</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section id="about">
+      <h2 class="sec">About Me</h2>
+      <div class="about">
+        <p>
+          I'm a software developer from India who enjoys turning ideas into reliable, useful software.
+          Rather than adding to the pile of abandoned repositories, I focus on shipping tools that
+          people actually use day to day — and I keep the source open so others can learn from them too.
+        </p>
+        <p>
+          My work spans two worlds: <b>desktop applications</b> built with Python and CustomTkinter, and
+          <b>browser extensions</b> built for Chrome (Manifest V3) and Firefox (Manifest V2), all designed
+          to be local-first and privacy-friendly.
+        </p>
+        <ul class="about-list">
+          <li>🚀 Building open-source projects that solve real problems</li>
+          <li>🐍 Desktop applications with Python &amp; CustomTkinter</li>
+          <li>🌐 Cross-browser extensions (Chrome MV3 &amp; Firefox MV2)</li>
+          <li>⚡ Tools that make everyday tasks faster</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="sec">Tech Stack</h2>
+      <div class="skills">
+        <span class="skill"><b>Python</b></span>
+        <span class="skill"><b>JavaScript</b></span>
+        <span class="skill"><b>TypeScript</b></span>
+        <span class="skill">CustomTkinter</span>
+        <span class="skill">FastAPI</span>
+        <span class="skill">Chrome Extensions (MV3)</span>
+        <span class="skill">Firefox Extensions (MV2)</span>
+        <span class="skill">HTML / CSS</span>
+        <span class="skill">SQLite</span>
+        <span class="skill">PyInstaller</span>
+        <span class="skill">Git / GitHub</span>
+        <span class="skill">Docker</span>
+        <span class="skill">Linux</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="sec">Featured Projects</h2>
+      <div class="projects">
+
+        <div class="project">
+          <div class="title"><span class="emoji">🎬</span> StreamSaver</div>
+          <p>
+            A fast, parallel video &amp; audio downloader for Windows with a bundled browser extension.
+            Downloads content from YouTube, YouTube Music, and hundreds of other sites simultaneously
+            (IDM-style, up to 64 connections) with playlist &amp; channel support and format conversion via ffmpeg.
+          </p>
+          <div class="tags">
+            <span>Python</span><span>Tkinter</span><span>yt-dlp</span><span>Windows</span><span>Chrome + Firefox</span>
+          </div>
+          <div class="links">
+            <a class="btn primary" href="https://mnishantlabs.github.io/StreamSaver/">Visit Website</a>
+            <a class="btn ghost" href="https://github.com/mnishantlabs/StreamSaver">View Source</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="title"><span class="emoji">🎧</span> Discord Token Manager (Desktop)</div>
+          <p>
+            Organize, validate, and manage voice channels across multiple Discord accounts from a single,
+            resizable Windows desktop window. Everything is stored locally on your machine.
+          </p>
+          <div class="tags">
+            <span>Python</span><span>CustomTkinter</span><span>Windows</span><span>Local-first</span>
+          </div>
+          <div class="links">
+            <a class="btn primary" href="https://mnishantlabs.github.io/Discord-Multiple-VC-Joiner/">Visit Website</a>
+            <a class="btn ghost" href="https://github.com/mnishantlabs/Discord-Multiple-VC-Joiner">View Source</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="title"><span class="emoji">🔐</span> Discord Token Manager (Browser Extension)</div>
+          <p>
+            A quiet, local-first browser extension for managing saved Discord session tokens, with a
+            Material 3 inspired UI. Supports Chrome (MV3) and Firefox (MV2); everything stays in your
+            browser's local storage.
+          </p>
+          <div class="tags">
+            <span>JavaScript</span><span>Manifest V3</span><span>Manifest V2</span><span>Chrome</span><span>Firefox</span>
+          </div>
+          <div class="links">
+            <a class="btn primary" href="https://mnishantlabs.github.io/Discord-Token-Manager-Extenstion/">Visit Website</a>
+            <a class="btn ghost" href="https://github.com/mnishantlabs/Discord-Token-Manager-Extenstion">View Source</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="socials">
+      <a href="https://github.com/mnishantlabs" title="GitHub" aria-label="GitHub">
+        <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+    </div>
+    <p>© <span id="year"></span> Nishant Kr. Mishra · Built with ❤️ · All projects are MIT licensed and open source.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
