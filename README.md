@@ -11,6 +11,9 @@ Building useful software, one project at a time.
 </p>
 
 <p>
+  <a href="https://mnishantlabs.github.io/mnishantlabs/">
+    <img src="https://img.shields.io/badge/Website-mnishantlabs.github.io-3B82F6?logo=html5&logoColor=white" />
+  </a>
   <a href="https://github.com/mnishantlabs">
     <img src="https://img.shields.io/badge/GitHub-mnishantlabs-181717?logo=github&logoColor=white" />
   </a>
